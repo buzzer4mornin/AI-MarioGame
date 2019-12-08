@@ -1,0 +1,11 @@
+.classpath
+.metadata
+.project
+.settings
+bin
+build
+/html
+/mario.jar
+results
+out
+target

@@ -1,3 +1,11 @@
+NOTE: To see my code implementation, check files on MarioGame/MarioAI4J-Playground/src/... I implemented rules-based approach.
+
+Check Project Webpage : https://ksvi.mff.cuni.cz/~dingle/2019/ai/mario/mario.html
+
+Award: 6th place among 38 students in Tournament, with 44.1% success rate on LEVEL_4_SPIKIES
+
+
+
 Refactored MarioAI code from: http://code.google.com/p/marioai/
 
 # MarioAI Version 0.3.1

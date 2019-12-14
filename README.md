@@ -1,8 +1,8 @@
-###### NOTE : To see my code implementation, check files on MarioGame/MarioAI4J-Playground/src/... I implemented rules-based approach.
+**NOTE : To see my code implementation, check files on MarioGame/MarioAI4J-Playground/src/... I implemented rules-based approach.**
 
-###### Check Project Webpage : https://ksvi.mff.cuni.cz/~dingle/2019/ai/mario/mario.html
+**Check Project Webpage : https://ksvi.mff.cuni.cz/~dingle/2019/ai/mario/mario.html**
 
-###### Award: 6th place among 38 students in Tournament, with 44.1% success rate on LEVEL_4_SPIKIES
+**Award: 6th place among 38 students in Tournament, with 44.1% success rate on LEVEL_4_SPIKIES**
 
 
 

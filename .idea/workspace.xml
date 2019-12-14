@@ -8,8 +8,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Uht5wWV3NJnnsqHst22zkcnjND" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -27,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RunMarioAgent">
+  <component name="RunManager" selected="Application.MarioAgent">
     <configuration name="Agent00_Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.idsia.agents.controllers.examples.Agent00_Random" />
       <module name="MarioAI4J-Agents" />
@@ -41,6 +45,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MarioAgent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MarioAgent" />
+      <module name="MarioAI4J-Playground" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunMarioAgent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RunMarioAgent" />
       <module name="MarioAI4J-Playground" />
@@ -50,6 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MarioAgent" />
         <item itemvalue="Application.RunMarioAgent" />
         <item itemvalue="Application.Agent00_Random" />
       </list>

@@ -6,9 +6,11 @@
 
 
 
-Refactored MarioAI code from: http://code.google.com/p/marioai/
+
 
 # MarioAI Version 0.3.1
+
+Refactored MarioAI code from: http://code.google.com/p/marioai/
 
 ![alt tag](https://github.com/medovina/MarioAI/raw/master/MarioAI4J/MatioAI4J.png)
 

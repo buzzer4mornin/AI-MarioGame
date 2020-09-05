@@ -29,16 +29,16 @@ public class MarioAgent extends MarioHijackAIBase implements IAgent {
 
 	private boolean enemyAhead() {
 		return
-				e.danger(0, 0) || e.danger(1, 0)      ||
-						(e.danger(1,1)  && !t.brick(1, 1))    ||
-						(e.danger(1,2)  && !t.brick(1, 2))    ||
-						(e.danger(2, 3) && !t.brick(2, 3))    ||
-						(e.danger(3, 3) && !t.brick(3, 3))    ||
-						(e.danger(4, 0) && e.squishy(8, 0))   ||
-						(e.danger(2, 0) && !e.squishy(8, 0))  ||
-						(e.danger(2,1)  && !t.brick(2, 1))    ||
-						(e.danger(2,2)  && !t.brick(2, 2))    ||
-						(e.danger(1, 3) && !t.brick(1, 3));
+		e.danger(0, 0) || e.danger(1, 0)      ||
+		(e.danger(1,1)  && !t.brick(1, 1))    ||
+		(e.danger(1,2)  && !t.brick(1, 2))    ||
+		(e.danger(2, 3) && !t.brick(2, 3))    ||
+		(e.danger(3, 3) && !t.brick(3, 3))    ||
+		(e.danger(4, 0) && e.squishy(8, 0))   ||
+		(e.danger(2, 0) && !e.squishy(8, 0))  ||
+		(e.danger(2,1)  && !t.brick(2, 1))    ||
+		(e.danger(2,2)  && !t.brick(2, 2))    ||
+		(e.danger(1, 3) && !t.brick(1, 3));
 	}
 
 	@Override
@@ -49,7 +49,6 @@ public class MarioAgent extends MarioHijackAIBase implements IAgent {
 		String debug = "MY DEBUG STRING";
 		VisualizationComponent.drawStringDropShadow(g, debug, 0, 26, 1);
 	}
-
 
 	public MarioInput actionSelectionAI() { {
 

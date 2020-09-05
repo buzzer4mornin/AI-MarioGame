@@ -18,7 +18,7 @@ public class MarioAgent extends MarioHijackAIBase implements IAgent {
 
 	private boolean dangerdown() {
 		return
-				e.danger(1, 3) |e.danger(1, 2)|| e.danger(3, 5);
+				e.danger(1, 3) || e.danger(1, 2)|| e.danger(3, 5);
 	}
 
 	private boolean brickAhead() {
@@ -34,11 +34,7 @@ public class MarioAgent extends MarioHijackAIBase implements IAgent {
 						(e.danger(1,2)  && !t.brick(1, 2))    ||
 						(e.danger(2, 3) && !t.brick(2, 3))    ||
 						(e.danger(3, 3) && !t.brick(3, 3))    ||
-						//o//
-						//(e.danger(4, 0) && e.squishy(8, -2))  ||
 						(e.danger(4, 0) && e.squishy(8, 0))   ||
-						//(e.danger(4, 1) && !t.brick(4, 1))   || //recently added
-						//'//
 						(e.danger(2, 0) && !e.squishy(8, 0))  ||
 						(e.danger(2,1)  && !t.brick(2, 1))    ||
 						(e.danger(2,2)  && !t.brick(2, 2))    ||
